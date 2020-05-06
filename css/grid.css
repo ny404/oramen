@@ -1,0 +1,21 @@
+.parallax-container {
+    min-height: 50vh;
+    width: 100%;
+    background: transparent;
+}
+
+.container { width: 100%; }
+.row { padding: 5%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33333333%; }
+.col-6 { width: 50%; }
+.col-8 { width: 66.66666667%; }
+.col-12 { width: 100%; }
+
+.banner { 
+	height: 50vh;
+}
+
+@media screen and (max-width: 767px){
+	.col-xs { width: 100%; }
+}
