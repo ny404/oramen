@@ -9,3 +9,28 @@
 
 h1, h2, h3, h4 { font-family: 'acremedium', Helvetica, Arial, sans-serif; }
 p { font-size: 1.2em; }
+blockquote {
+  border-left: 10px solid #E33B5F;
+  margin: 1.5em 0;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #E33B5F;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #E33B5F;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.5em;
+}
+blockquote p {
+  display: inline;
+}
