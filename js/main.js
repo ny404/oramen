@@ -1,7 +1,7 @@
 
   // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
-    speed: 2,
+    speed: 3,
     center: false,
     wrapper: null,
     round: true,

@@ -1,11 +1,5 @@
-.parallax-container {
-    min-height: 50vh;
-    width: 100%;
-    background: transparent;
-}
-
 .container { width: 100%; }
-.row { padding: 5%; }
+.row { padding: 5%; display: flex; flex-wrap: wrap; }
 .col-3 { width: 25%; }
 .col-4 { width: 33.33333333%; }
 .col-6 { width: 50%; }
@@ -21,6 +15,8 @@
 	justify-content: center;
 	text-align: center;
 }
+
+.introduction { background: #281f3a; background-image: linear-gradient(160deg, #281f3a, black); color: white; }
 
 .logo {  }
 
