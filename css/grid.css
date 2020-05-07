@@ -13,8 +13,16 @@
 .col-12 { width: 100%; }
 
 .banner { 
-	height: 50vh;
+	height: 100vh;
+	background: url(../img/oramen-welcome-banner.jpg) top center no-repeat;
+	background-size: cover;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.logo {  }
 
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
