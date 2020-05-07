@@ -17,9 +17,9 @@
 	background: url(../img/oramen-welcome-banner.jpg) top center no-repeat;
 	background-size: cover;
 	display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .logo {  }
