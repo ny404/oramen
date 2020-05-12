@@ -17,7 +17,7 @@
 
 .banner { 
 	height: 100vh;
-	background: url(../img/oramen-header-min.jpg) top center no-repeat;
+	background: url(../img/oramen-header-min.jpg) center center no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -32,10 +32,4 @@
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
 	.offset-col-2, .offset-col-3, .offset-col-4 { margin-left: -33.33333333%; }
-	.lightwidget[data-id="be7c7c3714bc54c5a8cf65fe56d00964"] .lightwidget__tile { 
-		-webkit-flex-basis: 50% !important;
-		width: 50% !important;
-		max-width: 50% !important;
-		flex-basis: 50% !important; 
-	}
 }
