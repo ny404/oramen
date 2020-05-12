@@ -1,5 +1,6 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
+.instagram { padding: 0; }
 
 .justify-center { justify-content: center; }
 
@@ -31,4 +32,10 @@
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
 	.offset-col-2, .offset-col-3, .offset-col-4 { margin-left: -33.33333333%; }
+	.lightwidget[data-id="be7c7c3714bc54c5a8cf65fe56d00964"] .lightwidget__tile { 
+		-webkit-flex-basis: 50% !important;
+		width: 50% !important;
+		max-width: 50% !important;
+		flex-basis: 50% !important; 
+	}
 }
