@@ -32,6 +32,8 @@
 footer { background: #281f3a; text-align: center; padding: 2.5% 2.5% 5% 2.5%; }
 footer ul { list-style-type: none; padding: 0; margin: 0;}
 footer ul li { display: inline-block; margin: 0 1%; color: #fff; }
+footer a { color: #fff; text-decoration: none; }
+footer a:hover { border-bottom: 1px solid; }
 
 .button { 
 	z-index: 500;
