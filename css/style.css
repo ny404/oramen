@@ -30,9 +30,8 @@
 .logo {  }
 
 footer { background: black; text-align: center; padding: 2.5% 2.5% 5% 2.5%; }
-footer ul { list-style: none; padding: 0; margin: 0;}
+footer ul { list-style-type: none; padding: 0; margin: 0;}
 footer ul li { display: inline-block; margin: 0 1%; color: #fff; }
-footer p { color: #fff; }
 
 .button { 
 	z-index: 500;
@@ -53,7 +52,7 @@ aside {  }
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
 	.offset-col-2, .offset-col-3, .offset-col-4 { margin-left: -33.33333333%; }
-	.button { padding: 2.5% 0; }
+	.button { padding: 4% 0; }
 	footer { padding: 10% 0 15% 0; }
 	footer ul li { display: block; margin: 2.5%; }
 }
