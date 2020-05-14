@@ -17,7 +17,7 @@
 
 .banner { 
 	height: calc(100vh);
-	background: url(../img/oramen-header-min.jpg) center center no-repeat;
+	background: url(../img/oramen-welcome-banner.jpg) top center no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;
