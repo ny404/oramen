@@ -1,8 +1,5 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
-.row:first-child { padding-bottom: 0; }
-.row:last-child { padding-top: 0; }
-.instagram { padding: 0; }
 
 .justify-center { justify-content: center; }
 
@@ -28,6 +25,7 @@
 }
 
 .logo {  }
+.image-showcase { width: 95%; padding: 0 2.5%;}
 
 
 body { background: #281f3a; }
