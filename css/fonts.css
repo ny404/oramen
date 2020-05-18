@@ -43,6 +43,7 @@ body { font-family: 'pt_serifregular', Helvetica, Arial, sans-serif; }
 h1, h2, h3, h4 { font-family: 'acremedium', Helvetica, Arial, sans-serif; color: #fff;}
 p { font-size: 1.2em; line-height: 1.6em; color: #fff; }
 footer p { font-size: 1em; }
+p.image-title { font-family: 'acremedium', Helvetica, Arial, sans-serif; text-align: center; }
 blockquote {
   border-left: 10px solid #E33B5F;
   margin: 1.5em 0;

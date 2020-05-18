@@ -1,6 +1,5 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
-
 .justify-center { justify-content: center; }
 
 .col-2 { width: 16.66666667%; }
@@ -25,8 +24,8 @@
 }
 
 .logo {  }
-.image-showcase { width: 95%; padding: 0 2.5%;}
-
+.image-showcase { width: 95%; padding: 2.5%;}
+.introduction .row { padding-bottom: 0; }
 
 body { background: #281f3a; }
 main { background-image: url(../img/oramen-section-pattern.png); }
