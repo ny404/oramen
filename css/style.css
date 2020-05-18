@@ -1,5 +1,7 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
+.row:first-child { padding-bottom: 0; }
+.row:last-child { padding-top: 0; }
 .instagram { padding: 0; }
 
 .justify-center { justify-content: center; }
