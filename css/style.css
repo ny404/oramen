@@ -1,6 +1,7 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
 .justify-center { justify-content: center; }
+.parallax { height: 0; }
 
 .col-2 { width: 16.66666667%; }
 .col-3 { width: 25%; }
