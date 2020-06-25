@@ -1,8 +1,9 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
 .justify-center { justify-content: center; }
-.parallax { height: 0; }
+.parallax { height: 0; padding: 0;}
 
+.col-1 { width: 8.33333333%; }
 .col-2 { width: 16.66666667%; }
 .col-3 { width: 25%; }
 .col-4 { width: 33.33333333%; }
@@ -10,9 +11,11 @@
 .col-8 { width: 66.66666667%; }
 .col-12 { width: 100%; }
 
-.offset-col-2 { margin-left: 16.66666667%; }
+.col-padding { padding: 0 2.5%; background: rgba(0,0,0,0.8); }
+
+/*.offset-col-2 { margin-left: 16.66666667%; }
 .offset-col-3 { margin-left: 25%; }
-.offset-col-4 { margin-left: 33.33333333%; }
+.offset-col-4 { margin-left: 33.33333333%; }*/
 
 .banner { 
 	height: calc(100vh);
@@ -27,9 +30,10 @@
 .logo {  }
 .image-showcase { width: 95%; padding: 2.5%;}
 .introduction .row { padding-bottom: 0; }
+.drop { position:relative; z-index: 10; }
 
 body { background: #281f3a; }
-main { background-image: url(../img/oramen-section-pattern.png); }
+main { background-image: url(../img/oramen-section-pattern.png); overflow-x: hidden; }
 footer { background: #020403; text-align: center; padding: 2.5% 2.5% 5% 2.5%; }
 footer ul { list-style-type: none; padding: 0; margin: 0;}
 footer ul li { display: inline-block; margin: 0 1%; color: #fff; }
@@ -54,7 +58,9 @@ aside {  }
 
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
-	.offset-col-2, .offset-col-3, .offset-col-4 { margin-left: -33.33333333%; }
+	.col-padding { padding: 5%; }
+	.offset-col-6 { margin-left: -50%; }
+	.offset-col-3 { margin-left: 46%; }
 	.button { padding: 4% 0; }
 	footer { padding: 10% 0 15% 0; }
 	footer ul li { display: block; margin: 2.5%; }
