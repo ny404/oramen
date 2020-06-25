@@ -34,7 +34,7 @@
 .map-banner { 
 	height: 500px; 
 	background: url(../img/oramen-map.jpg) center center no-repeat;
-
+	background-size: cover;
 }
 
 body { background: #281f3a; }
