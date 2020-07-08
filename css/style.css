@@ -1,6 +1,9 @@
 .container { width: 100%; }
 .row { padding: 5%; display: flex; flex-wrap: wrap; }
+.row:after { content:''; display: table; }
 .justify-center { justify-content: center; }
+.align-bottom { align-items: flex-end; }
+.line-break { margin-top: 2%; }
 .parallax { height: 0; padding: 0;}
 
 .col-1 { width: 8.33333333%; }
@@ -32,16 +35,38 @@
 .introduction .row { padding-bottom: 0; }
 .drop { position:relative; z-index: 10; }
 .map-banner { 
-	height: 500px; 
+	height: 500px;
 	background: url(../img/oramen-map.jpg) center center no-repeat;
 	background-size: cover;
+	text-align: center;
+}
+
+.map-button {
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	text-align: center;
+	background: #E33B5F;
+	padding: 1% 0;
+	/*left: 50%;
+	margin-left: -125px;*/
+	top: 400px;
+	border-radius: 50px; 
+	color: #fff;
+	text-decoration: none;
+}
+
+.oramen-address {
+	padding-top: 0;
+	text-align: left;
 }
 
 body { background: #281f3a; }
 main { background-image: url(../img/oramen-section-pattern.png); overflow-x: hidden; }
 footer { background: #020403; text-align: center; padding: 2.5% 2.5% 5% 2.5%; }
+address { color: #fff; }
 footer ul { list-style-type: none; padding: 0; margin: 0;}
-footer ul li { display: inline-block; margin: 0 1%; color: #fff; }
+footer ul li { display: block; color: #fff; }
 footer a { color: #fff; text-decoration: none; }
 footer a:hover { border-bottom: 1px solid; }
 
@@ -59,14 +84,14 @@ footer a:hover { border-bottom: 1px solid; }
 	color: #fff;
 	text-decoration: none;
 }
-aside {  }
 
 @media screen and (max-width: 767px){
 	.col-xs { width: 100%; }
 	.col-padding { padding: 5%; }
 	.offset-col-6 { margin-left: -50%; }
 	.offset-col-3 { margin-left: 46%; }
-	.button { padding: 4% 0; }
+	.button, .map-button { padding: 4% 0; }
+	.map-button { margin: 1% 0; top: 350px; }
 	footer { padding: 10% 0 15% 0; }
-	footer ul li { display: block; margin: 2.5%; }
+	.oramen-address { text-align: center; }
 }
