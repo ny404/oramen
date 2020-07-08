@@ -57,9 +57,12 @@
 }
 
 .oramen-address {
-	padding-top: 0;
+	padding-top: 0 ;
+	padding-bottom: 0;
 	text-align: left;
 }
+
+.juicer-feed .referral { display: none !important; }
 
 body { background: #281f3a; }
 main { background-image: url(../img/oramen-section-pattern.png); overflow-x: hidden; }
