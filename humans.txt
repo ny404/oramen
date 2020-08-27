@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Nick
 
 # THANKS
 
-    <name>
+    KDNY Systems
 
 # TECHNOLOGY COLOPHON
 
