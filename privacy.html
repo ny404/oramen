@@ -437,11 +437,17 @@
   <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <!-- <script>
+  <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    ga('create', 'UA-176664455-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    var captureOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
