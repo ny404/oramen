@@ -168,7 +168,7 @@
     <p>&copy; 2016-2020 ORAMEN. All rights reserved.</p>
   </footer>
   <aside>
-    <a href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58" aria-label="Order ORAMEN on Foodbooking.com" class="button">Order Now</a>
+    <a href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58" onclick="captureOutboundLink('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58'); return false;" aria-label="Order ORAMEN on Foodbooking.com" class="button">Order Now</a>
   </aside>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
@@ -204,6 +204,12 @@
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-176664455-1', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    var captureOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
