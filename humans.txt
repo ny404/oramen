@@ -3,11 +3,7 @@
 
 # TEAM
 
-    Nick
-
-# THANKS
-
-    KDNY Systems
+    TSPro
 
 # TECHNOLOGY COLOPHON
 
