@@ -52,7 +52,7 @@
     <section>
       <div class="banner" role="presentation">
           <div class="rellax">
-            <a href="/"><img src="img/oramen-logo.png" alt="ORAMEN" class="logo"></a>
+            <a href="/"><img src="img/oramen-logo.png" alt="Welcome to ORAMEN" class="logo"></a>
           </div>
       </div>
     </section>
@@ -94,29 +94,29 @@
           <div class="col-8 col-xs">
             <div class="row">
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-sushi-highlight.png">
+                <img class="image-showcase" alt="Category photo of sushi rolls" src="img/oramen-sushi-highlight.png">
                 <p class="image-title">Sushi</p>
               </div>
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-donburi-highlight.png">
+                <img class="image-showcase" alt="Category photo of donburi" src="img/oramen-donburi-highlight.png">
                 <p class="image-title">Donburi</p>
               </div>
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-ramen-highlight.png">
+                <img class="image-showcase" alt="Category photo of ramen noodle" src="img/oramen-ramen-highlight.png">
                 <p class="image-title">Ramen</p>
               </div>
             </div>
             <div class="row">
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-chef-special-highlight.png">
+                <img class="image-showcase" alt="Category photo of Oramen's chef special" src="img/oramen-chef-special-highlight.png">
                 <p class="image-title">Chef Special</p>
               </div>
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-small-bite-highlight.png">
+                <img class="image-showcase" alt="Category photo of a delicious small bite appetizer" src="img/oramen-small-bite-highlight.png">
                 <p class="image-title">Small Bite</p>
               </div>
               <div class="col-4 col-xs">
-                <img class="image-showcase" alt="" src="img/oramen-bao-highlight.png">
+                <img class="image-showcase" alt="Category photo of our signature bao buns" src="img/oramen-bao-highlight.png">
                 <p class="image-title">Bao Buns</p>
               </div>
             </div>
@@ -162,17 +162,11 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row justify-center">
-        <ul class="juicer-feed" data-feed-id="oramenny" data-per="5" data-pages="1"></ul>
-      </div>
-    </div>
     <p>&copy; 2016-2025 ORAMEN. All rights reserved.</p>
   </footer>
   <aside>
-    <a href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58" onclick="captureOutboundLink('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58'); return false;" aria-label="Order ORAMEN on Foodbooking.com" class="button">Order Now</a>
+    <a href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58" onclick="captureOutboundLink('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=f28c1201-f032-43b1-891e-a2fb45107a58'); return false;" aria-label="Order ORAMEN on Foodbooking.com. This will open a new tab." class="button" target="_blank">Order Now</a>
   </aside>
-
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="js/vendor/rellax.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -180,27 +174,6 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
-  <!-- <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script> -->
-  <script type="text/javascript">
-    $(window).scroll(lazyLoadJuicer);
-
-    var feed = $('.juicer-feed');
-    var juicerFeedScrollDistance = feed.offset().top;
-    var juicerLoaded = false;
-
-    function lazyLoadJuicer() {
-      var scrollDistance = $(window).scrollTop();
-      var windowHeight = $(window).height();
-
-      if ((scrollDistance >= (juicerFeedScrollDistance - windowHeight)) && !juicerLoaded) {
-        $.getScript('https://assets.juicer.io/embed.js');
-        $('head').append('<link rel="stylesheet" type="text/css" href="https://assets.juicer.io/embed.css">');
-        juicerLoaded = true;
-      }
-    };
-
-    lazyLoadJuicer();
-  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
